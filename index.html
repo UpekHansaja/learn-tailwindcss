@@ -5,21 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Tailwind | Discord Nav</title>
+    <link rel="shortcut icon" href="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" type="image/x-icon">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link href="./src/output.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="flex">
+    <div class="flex flex-col">
 
-        <div class="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-gray-900 text-white shadow-md">
-            <i>A</i>
-            <i>B</i>
-            <i>C</i>
-            <i>D</i>
-            <i>E</i>
-        </div>
+        <ul
+            class="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col items-center bg-gray-900 text-white shadow-md text-2xl">
+            <li
+                class="nav-icons flex items-center justify-center w-12 h-12 mx-auto my-2 shadow-lg bg-gray-700 text-green-500 hover:bg-green-600 hover:text-slate-50 rounded-3xl hover:rounded-xl transition-all duration-200 ease-linear cursor-pointer">
+                <i class='bx bxs-hot'></i>
+            </li>
+            <li
+                class="nav-icons flex items-center justify-center w-12 h-12 mx-auto my-2 shadow-lg bg-gray-700 text-green-500 hover:bg-green-600 hover:text-slate-50 rounded-3xl hover:rounded-xl transition-all duration-200 ease-linear cursor-pointer">
+                <i class='bx bx-plus'></i>
+            </li>
+            <li
+                class="nav-icons flex items-center justify-center w-12 h-12 mx-auto my-2 shadow-lg bg-gray-700 text-green-500 hover:bg-green-600 hover:text-slate-50 rounded-3xl hover:rounded-xl transition-all duration-200 ease-linear cursor-pointer">
+                <i class='bx bx-cloud-lightning'></i>
+            </li>
+            <li
+                class="nav-icons flex items-center justify-center w-12 h-12 mx-auto my-2 shadow-lg bg-gray-700 text-green-500 hover:bg-green-600 hover:text-slate-50 rounded-3xl hover:rounded-xl transition-all duration-200 ease-linear cursor-pointer">
+                <i class='bx bx-data'></i>
+            </li>
+        </ul>
 
     </div>
 
